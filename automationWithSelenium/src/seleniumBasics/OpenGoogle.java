@@ -17,10 +17,10 @@ public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Elcot\\Desktop\\drivers\\gecko\\geckodriver.exe");  
 		WebDriver driver = new FirefoxDriver();
 		driver.navigate().to("http://www.google.com");
-/*		driver.findElement(By.name("q")).sendKeys("Bishop heber trichy");
+		driver.findElement(By.name("q")).sendKeys("Bishop heber trichy");
 		driver.navigate().back();
 		driver.navigate().refresh();
-		Thread.sleep(3000);*/
+		Thread.sleep(3000);
 		//driver.close();
 		driver.quit();
 }
