@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28614" started-at="2017-06-07T15:21:59Z" finished-at="2017-06-07T15:22:28Z">
+  <suite name="Test Suite" duration-ms="145" started-at="2017-07-05T15:54:16Z" finished-at="2017-07-05T15:54:16Z">
     <groups>
+      <group name="Apple">
+        <method signature="GroupTest.apple1()[pri:0, instance:seleniumWithTestNG.GroupTest@174d20a]" name="apple1" class="seleniumWithTestNG.GroupTest"/>
+        <method signature="GroupTest.apple2()[pri:0, instance:seleniumWithTestNG.GroupTest@174d20a]" name="apple2" class="seleniumWithTestNG.GroupTest"/>
+      </group> <!-- Apple -->
+      <group name="MI">
+        <method signature="GroupTest.mi1()[pri:0, instance:seleniumWithTestNG.GroupTest@174d20a]" name="mi1" class="seleniumWithTestNG.GroupTest"/>
+        <method signature="GroupTest.mi2()[pri:0, instance:seleniumWithTestNG.GroupTest@174d20a]" name="mi2" class="seleniumWithTestNG.GroupTest"/>
+      </group> <!-- MI -->
     </groups>
-    <test name="Default test" duration-ms="28614" started-at="2017-06-07T15:21:59Z" finished-at="2017-06-07T15:22:28Z">
-      <class name="ramya.OpenGoogle">
-        <test-method status="PASS" signature="openGoogle()[pri:0, instance:ramya.OpenGoogle@56dfcb]" name="openGoogle" duration-ms="28520" started-at="2017-06-07T20:51:59Z" finished-at="2017-06-07T20:52:28Z">
+    <test name="Group Test" duration-ms="145" started-at="2017-07-05T15:54:16Z" finished-at="2017-07-05T15:54:16Z">
+      <class name="seleniumWithTestNG.GroupTest">
+        <test-method status="PASS" signature="apple1()[pri:0, instance:seleniumWithTestNG.GroupTest@174d20a]" name="apple1" duration-ms="30" started-at="2017-07-05T21:24:16Z" finished-at="2017-07-05T21:24:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openGoogle -->
-      </class> <!-- ramya.OpenGoogle -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- apple1 -->
+        <test-method status="PASS" signature="apple2()[pri:0, instance:seleniumWithTestNG.GroupTest@174d20a]" name="apple2" duration-ms="4" started-at="2017-07-05T21:24:16Z" finished-at="2017-07-05T21:24:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple2 -->
+        <test-method status="PASS" signature="mi1()[pri:0, instance:seleniumWithTestNG.GroupTest@174d20a]" name="mi1" duration-ms="4" started-at="2017-07-05T21:24:16Z" finished-at="2017-07-05T21:24:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mi1 -->
+        <test-method status="PASS" signature="mi2()[pri:0, instance:seleniumWithTestNG.GroupTest@174d20a]" name="mi2" duration-ms="10" started-at="2017-07-05T21:24:16Z" finished-at="2017-07-05T21:24:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mi2 -->
+      </class> <!-- seleniumWithTestNG.GroupTest -->
+    </test> <!-- Group Test -->
+  </suite> <!-- Test Suite -->
 </testng-results>
