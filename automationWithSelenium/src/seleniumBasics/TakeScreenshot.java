@@ -37,7 +37,7 @@ public class TakeScreenshot {
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 
 		//The below method will save the screen shot in d drive with name "screenshot.png"
-		FileUtils.copyFile(scrFile, new File("D:\\screenshot.png"));
+		FileUtils.copyFile(scrFile, new File("D:\\snap.png"));
 
 	}
 
